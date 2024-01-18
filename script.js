@@ -22,5 +22,24 @@ s3.addEventListener('mouseover',()=>{
 	s1.style.backgroundColor="rgb(111, 78, 55)"
 })
 
+s1.addEventListener('mouseout',()=>{
+	// s2.innerText = "ok"
+	s3.style.backgroundColor="rgb(230, 230, 250)"
+	s2.style.backgroundColor="rgb(230, 230, 250)"
+	s1.style.backgroundColor="rgb(230, 230, 250)"
+})
+s2.addEventListener('mouseout',()=>{
+	// s2.innerText = "ok"
+	s3.style.backgroundColor="rgb(230, 230, 250)"
+	s2.style.backgroundColor="rgb(230, 230, 250)"
+	s1.style.backgroundColor="rgb(230, 230, 250)"
+})
+s3.addEventListener('mouseout',()=>{
+	// s2.innerText = "ok"
+	s3.style.backgroundColor="rgb(230, 230, 250)"
+	s2.style.backgroundColor="rgb(230, 230, 250)"
+	s1.style.backgroundColor="rgb(230, 230, 250)"
+})
+
 
 
